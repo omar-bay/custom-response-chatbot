@@ -1,0 +1,73 @@
+{"intents":  [
+  {
+    "tag": "greetings",
+    "patterns": [
+      "hello",
+      "hey",
+      "hi",
+      "good day",
+      "greetings",
+      "what's up?",
+      "how is it going?",
+      "mornin'",
+      "good morning",
+      "hello how are you",
+      "it's nice to meet you",
+      "hi, this is my Name"
+    ],
+    "responses": ["Hello!", "Hey!", "What can i do for you?"]
+  },
+  {
+    "tag": "goodbye",
+    "patterns": [
+      "cya",
+      "See you later",
+      "Goodbye",
+      "I am leaving",
+      "Have a good day",
+      "Bye",
+      "see ya",
+      "bye bye",
+      "farewell"
+    ],
+    "responses": ["It was nice helping you!", "GoodBye!"]
+  },
+  {
+    "tag": "name",
+    "patterns": [
+      "what is your name",
+      "what should i call you",
+      "who are you",
+      "what do they call you",
+      "i'm Name, what about you?"
+    ],
+    "responses": ["You can call me omarBOT", "I'm omarBOT", "I'm omarBOT, the help service in omarCO"]
+  },
+  {
+    "tag": "hours",
+    "patterns": [
+      "when are you open",
+      "what are your hours",
+      "till when are you open",
+      "what time are you available",
+      "available times",
+      "when can i call you",
+      "can i come to visit",
+      "when can i come"
+    ],
+    "responses": ["Our company hours are 8am - 5pm \n But I'm always here to help.."]
+  },
+  {
+    "tag": "small talk",
+    "patterns": [
+      "do you like this",
+      "do you love that",
+      "how is the weather today",
+      "what kinds of things do you like",
+      "what do you like",
+      "i was going to work today",
+      "i hate you"
+    ],
+    "responses": ["small talk detected"]
+  }
+]}

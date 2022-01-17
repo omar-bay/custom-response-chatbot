@@ -1,0 +1,1 @@
+to train the bot, edit in the intents.json then run training.py
